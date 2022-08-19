@@ -1,8 +1,12 @@
 {
   "name": "carparts",
   "version": "1.0.0",
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=10.0.0"
+  },
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
